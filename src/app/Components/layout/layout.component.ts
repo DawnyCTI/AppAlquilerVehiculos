@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [],
+  imports: [MatToolbarModule],
   templateUrl: './layout.component.html',
-  styleUrl: './layout.component.css'
+  styleUrls: ['./layout.component.css']
 })
-export class LayoutComponent {
-
-}
+export class LayoutComponent { }
